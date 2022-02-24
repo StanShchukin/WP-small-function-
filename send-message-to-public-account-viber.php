@@ -2,7 +2,7 @@
 
 // определяем обратный вызов wpcf7_mail_sent
 	function action_wpcf7_mail_sent ( ) {
-		$receiverID  = 'uSeM1GpAyavSU2A3GpSK9A=='; // id admin chat
+		$receiverID  = 'string'; // id admin chat
 		$TextMessage = 'Привет Это бот!  NewchildFunction  PHP';
 		
 		$curl      = curl_init();
@@ -34,7 +34,7 @@
 			CURLOPT_HTTPHEADER => array(
 				"Cache-Control: no-cache",
 				"Content-Type: application/JSON",
-				"X-Viber-Auth-Token: 49da77da30a7d451-f0cd48ecdc5a16f8-a8be647ea767726e" //token
+				"X-Viber-Auth-Token: string" //token
 			),
 		) );
 		
